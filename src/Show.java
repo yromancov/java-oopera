@@ -7,7 +7,7 @@ public class Show {
     private int duration;
     private Director director;
     private ArrayList<Actor> listOfActors;
-//    ArrayList<Actor> actors = new ArrayList<>();
+
 
     public Show(String title, int duration, Director director, ArrayList<Actor> listOfActors) {
         this.title = title;
@@ -16,7 +16,7 @@ public class Show {
         this.listOfActors = listOfActors;
 
     }
-//    HashMap<Show, ArrayList<Actor>> actorShow = new HashMap<>();
+
 
 
     public void addActors(Actor actor) {

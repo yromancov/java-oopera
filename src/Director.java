@@ -12,7 +12,7 @@ public class Director extends  Person{
         return "Director{" + "name='" + super.getName() + '\'' +
                 ", surname='" + getSurname() + '\'' +
                 ", gender=" + getGender() +
-                "numberOfShows=" + numberOfShows +
+                ", numberOfShows=" + numberOfShows +
                 '}';
     }
 }

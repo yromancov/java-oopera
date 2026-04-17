@@ -24,9 +24,13 @@ public class Theatre {
 //        show.printActorsShow();
 //        opera.printActorsShow();
 //        balet.printActorsShow();
-        show.changeActors("Зайцев",actor3);
+        show.changeActors("Зайцев", actor3);
         opera.printLibretto();
         balet.printLibretto();
+        System.out.println(musicauthor);
+        System.out.println(choreographer);
+        System.out.println(director1);
+        System.out.println(actor1);
 
 
     }
