@@ -1,17 +1,17 @@
 public class MusicalShow extends Show{
-    private String musicAuthor;
+    private Person musicAuthor;
     private String librettoText;
 
-    public MusicalShow(String musicAuthor, String librettoText) {
+    public MusicalShow(Person musicAuthor, String librettoText) {
         this.musicAuthor = musicAuthor;
         this.librettoText = librettoText;
     }
 
-    public String getMusicAuthor() {
+    public Person getMusicAuthor() {
         return musicAuthor;
     }
 
-    public void setMusicAuthor(String musicAuthor) {
+    public void setMusicAuthor(Person musicAuthor) {
         this.musicAuthor = musicAuthor;
     }
 

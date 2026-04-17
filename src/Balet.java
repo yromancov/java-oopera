@@ -1,17 +1,17 @@
 public class Balet extends MusicalShow {
 
-    private String choreographer;
+    private Person choreographer;
 
-    public Balet(String musicAuthor, String librettoText, String choreographer) {
-        super(musicAuthor, librettoText);
+    public Balet(MusicalShow musicalShow, Person choreographer) {
+        super(musicalShow.getMusicAuthor(), musicalShow.getLibrettoText());
         this.choreographer = choreographer;
     }
 
-    public String getChoreographer() {
+    public Person getChoreographer() {
         return choreographer;
     }
 
-    public void setChoreographer(String choreographer) {
+    public void setChoreographer(Person choreographer) {
         this.choreographer = choreographer;
     }
 
