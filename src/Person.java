@@ -2,14 +2,13 @@ public class Person {
     private final String name;
     private final String surname;
     private final Gender gender;
-    private final int height;
 
 
-    public Person(String name, String surname, Gender gender, int height) {
+
+    public Person(String name, String surname, Gender gender) {
         this.name = name;
         this.surname = surname;
         this.gender = gender;
-        this.height = height;
     }
 
     public String getName() {
@@ -24,9 +23,7 @@ public class Person {
         return gender;
     }
 
-    public int getHeight() {
-        return height;
-    }
+
 
     @Override
     public String toString() {
@@ -34,7 +31,6 @@ public class Person {
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", gender=" + gender +
-                ", height=" + height +
                 '}';
     }
 }
