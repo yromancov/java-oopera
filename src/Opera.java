@@ -11,11 +11,6 @@ public class Opera extends MusicalShow {
     }
 
 
-    @Override
-    public void printLibretto() {
-        super.printLibretto();
-    }
-
     public int getChoirSize() {
         return choirSize;
     }

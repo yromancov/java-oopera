@@ -13,12 +13,13 @@ public class Actor extends Person{
     public boolean equals(Object object) {
         if (object == null || getClass() != object.getClass()) return false;
         Actor actor = (Actor) object;
-        return  Objects.equals(getName(), actor.getName()) && Objects.equals(getSurname(), actor.getSurname());
+        return  Objects.equals(getName(), actor.getName()) &&
+                Objects.equals(getSurname(), actor.getSurname()) && Objects.equals(getHeight(), actor.getHeight());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getName(), getSurname());
+        return Objects.hash(height, getName(), getSurname());
     }
 
     public int getHeight() {

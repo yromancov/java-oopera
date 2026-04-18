@@ -19,10 +19,7 @@ public class Balet extends MusicalShow {
         this.choreographer = choreographer;
     }
 
-    @Override
-    public void printLibretto() {
-        super.printLibretto();
-    }
+
 
 
 }
